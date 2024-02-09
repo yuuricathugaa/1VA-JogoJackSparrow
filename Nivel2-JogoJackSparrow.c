@@ -1,3 +1,4 @@
+//Aluno : Yuri Catunda F. de Sousa - 1ºVA
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
