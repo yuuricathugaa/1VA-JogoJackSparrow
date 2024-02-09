@@ -33,7 +33,7 @@ void inicializarEmbarcacoes(Jogador *jogador, int quantidadeEmbarcacoes, int ini
         do {
             x = rand() % (fimX - inicioX + 1) + inicioX;
             y = rand() % TAMANHO_TABULEIRO;
-        } while (jogador->grade[x][y] != VAZIO); // Garantir que a posição está vazia
+        } while (jogador->grade[x][y] != VAZIO);
         jogador->grade[x][y] = (quantidadeEmbarcacoes == QUANTIDADE_EMBARCACOES_JACK) ? EMBARCACAO_JACK : EMBARCACAO_SALAZAR;
     }
 }
